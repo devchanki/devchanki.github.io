@@ -4,6 +4,7 @@ var path = require('path');
 module.exports = {
   publicPath: '/',
   outputDir: path.resolve(__dirname, './docs'),
+  lintOnSave : false,
   // devServer: {
   //   proxy: { // proxyTable 설정
   //     '/api': {
